@@ -79,6 +79,4 @@ $13n \cdot T(1) + (2logn)n$
 
 $13n \cdot T(1) + 2nlogn$
 
-$T(1)n + nlogn$
-
-$T(1)n + nlogn$ \in \Theta(nlogn)$
+$n \cdot T(1) + nlogn$ \in \Theta(nlogn)$
