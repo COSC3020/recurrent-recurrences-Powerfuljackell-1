@@ -64,3 +64,8 @@ $$ T(n) =
         13 T\left(\frac{n}{13}\right) + 2n & n > 1
     \end{cases}
 $$
+
+$T(n) = 13T(\frac{n}{13}) + 2n $
+
+$= 13 \cdot 13T(\frac{n}{13 \cdot 13}) + 2n + 2n
+$= 13 \cdot 13 \cdot 13T(\frac{n}{13 \cdot 13 \cdot 13}) + 2n + 2n + 2n
