@@ -70,3 +70,17 @@ $T(n) = 13T(\frac{n}{13}) + 2n $
 $= 13 \cdot 13T(\frac{n}{13 \cdot 13}) + 2n + 2n$
 
 $= 13 \cdot 13 \cdot 13T(\frac{n}{13 \cdot 13 \cdot 13}) + 2n + 2n + 2n$
+
+$= 13^i \cdot T(\frac{n}{13^i}) + (2i) \cdot n $
+
+for $i = logn$
+
+$13n \cdot 1 + (2logn)n$
+
+$13n + 2nlogn$
+
+Dropping constants
+
+$n + nlogn$
+
+$$n + nlogn$ \in \Theta(nlogn)$
