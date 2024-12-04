@@ -75,12 +75,10 @@ $= 13^i \cdot T(\frac{n}{13^i}) + (2i) \cdot n $
 
 for $i = logn$
 
-$13n \cdot 1 + (2logn)n$
+$13n \cdot T(1) + (2logn)n$
 
-$13n + 2nlogn$
+$13n \cdot T(1) + 2nlogn$
 
-Dropping constants
+$T(1)n + nlogn$
 
-$n + nlogn$
-
-$$n + nlogn$ \in \Theta(nlogn)$
+$T(1)n + nlogn$ \in \Theta(nlogn)$
